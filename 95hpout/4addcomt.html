@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang='ja'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name="robots" content="noindex"/>
+    <title>事象年、キーワード、コメントの書き込みをどうぞ。</title>
+    <link rel='stylesheet' type='text/css' href='./style.css'>
+</head>
+
+<body>
+<form action='4addcomt.php' method='post'>
+    <p>
+        <label for='nepyr'>年（西暦）：</label>
+        <input type="integer" name='nepyr'>
+    </p>
+    <p>
+        <label for='kwd'>キーワード：</label>
+        <input type='text' name='kwd'>
+    </p>
+    <p>
+        <label for='cmt'>コメント：</label>
+        <input type='text' name='cmt'>
+    </p>
+
+    <p class='button'>
+        <input type='submit' value='事象年、キーワード、コメントを登録します。'>
+    </p>
+</form>
+
+<br>
+<a href='5comtlist.php'>コメント一覧を見る。　→→→　</a>
+
+</body>
+</html>
